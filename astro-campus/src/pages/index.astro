@@ -1,0 +1,21 @@
+---
+// Frontmatter: código de servidor (no llega al navegador)
+const titulo = "Astro Campus";
+const descripcion = "Portal de contenido construido con Astro, módulo a módulo.";
+---
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{titulo}</title>
+  </head>
+  <body style="background: #13151a; color: white; font-family: system-ui, sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0;">
+    <main style="text-align: center; border: 1px solid #444; padding: 2rem; border-radius: 12px; background: #1e2026; max-width: 500px; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5);">
+      <h1 style="color: #4f95ff; margin-bottom: 1rem;">{titulo}</h1>
+      <p style="color: #ccc; line-height: 1.6;">{descripcion}</p>
+      <hr style="border: 0.5px solid #444; margin: 1.5rem 0;" />
+      <p style="font-weight: bold; color: #10b981;">Módulo 01 — Instalación y Configuración completado.</p>
+    </main>
+  </body>
+</html>
